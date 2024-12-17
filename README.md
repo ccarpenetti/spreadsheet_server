@@ -11,3 +11,5 @@ query( row, col, width, height ) -> Returns a rectangular subset of the spreadsh
 Clients would send their spreadsheet operation requests via TCP to the server, who would then edit the server's local copy of the spreadsheet. Upon completion of the request, the server would send an acknowledgemenmt.
 
 Moreover, I have also added failure tolerance to my project, ensuring that if the server may fail at any moment in time, it can safely pick up where it left off without any lost information. This has been through logging client operations and checkpointing. Likewise, I have also client robustness and added functinality for the client to not automatically fail once the server disconnects, but keep retrying the server until success. 
+
+Built using Python.
