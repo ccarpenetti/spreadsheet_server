@@ -1,6 +1,6 @@
 # spreadsheet_server
 
-This is a project that I completed as a part of my Distributed Systems class while at Notre Dame! It is a basic implementation of the core functionalities of Google Sheets. It follows a client-server architecture, in which multiple clients could connect to my event-driven SpreadSheetServer.py and be able to edit the same spreadsheet in real-time. The 5 main client-side spreadsheet operations are: 
+This is a project that I completed as a part of a CS elective class while at Notre Dame! It is a basic implementation of the core functionalities of Google Sheets. It follows a client-server architecture, in which multiple clients could connect to my event-driven SpreadSheetServer.py and be able to edit the same spreadsheet in real-time. The 5 main client-side spreadsheet operations are: 
 
 insert( row, col, value ) -> Inserts the given value at a numeric row and column, overriding any existing value.
 
